@@ -1,0 +1,63 @@
+.about_container{
+    .about_history{
+        padding: 0.9em 0;
+        
+        .about{
+            @include grid(2);
+            gap: 0.9em;
+
+            .image{
+                img{
+                    width: 80%;
+                    height: 50vh;
+                    border-radius: 12px;
+                }
+            }
+
+            .about_infor{
+                p{
+                    padding: 0.9em 0;
+                    font-size: $text-size-large;
+                }
+            }
+        }
+    }
+
+    .our_goals{
+        padding: 0.9em 0;
+
+        .goals_infor{
+            @include grid(2);
+            padding: 0.9em 0;
+            gap: 1.5em;
+            
+            h4{
+                padding: 0.3em 0;
+                text-decoration: underline;
+            }
+            
+            .mission, .vision{
+                box-shadow: 2px 2px 3px $background-color;
+                padding: 0.9em;
+                border-radius: 8px;
+                
+                p{
+                    font-size: $text-size-medium;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (width <=726px) {
+    .about_container{
+        padding: 1.2em 5%;
+        .about_history{
+            .about{
+                .image{
+                    display: none;
+                }
+            }
+        }
+    }
+}

@@ -230,6 +230,13 @@ body {
   .footer_container {
     padding: 1.2em 3%;
   }
+  .footer_container .footer_content .footer_infor p {
+    font-size: 0.9em;
+    padding: 0.2em 0;
+  }
+  .footer_container .footer {
+    font-size: 0.9em;
+  }
 }
 .hero_container {
   position: relative;
@@ -309,14 +316,14 @@ body {
     height: inherit;
   }
   .hero_container .hero_container {
-    height: 45vh;
+    height: 50vh;
   }
   .hero_container .hero_container .hero_content {
-    top: 50%;
+    top: 52%;
     width: 80%;
   }
   .hero_container .hero_container .hero_content h1 {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
   .hero_container .hero_container .hero_content p {
     font-size: 1em;
@@ -425,6 +432,7 @@ body {
 .content_container .project_content .project_infor .project_card {
   box-shadow: 1px 1px 3px #000000;
   padding: 0.8em;
+  border-radius: 12px;
 }
 .content_container .project_content .project_infor .project_card .img {
   display: flex;
@@ -439,7 +447,7 @@ body {
 }
 .content_container .project_content .project_infor .project_card p {
   padding: 0.2em 0;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 .content_container .project_content .project_infor .project_card h4 {
   padding: 0.2em 0;
@@ -509,5 +517,218 @@ body {
   .content_container .project_content .project_infor .project_card .img img {
     height: 25vh;
     width: 90%;
+  }
+}
+.product_container .product_infor {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  gap: 2em;
+  padding: 1.1em 0;
+}
+@media screen and (width >= 726px) {
+  .product_container .product_infor {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.product_container .product_infor .product_card {
+  box-shadow: 2px 2px 2px 1.5px #000000;
+  padding: 0.9em;
+  border-radius: 12px;
+}
+.product_container .product_infor .product_card .img {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.product_container .product_infor .product_card .img img {
+  width: 95%;
+  height: 40vh;
+  border-radius: 8px;
+}
+.product_container .product_infor .product_card h3 {
+  padding: 0.3em 0 0 0;
+}
+.product_container .product_infor .product_card p {
+  padding: 0.2em 0;
+  font-size: 1em;
+}
+.product_container .product_infor .product_card .product_items {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 0 0.2em;
+  font-size: 1.1em;
+}
+.product_container .product_infor .product_card .product_items p {
+  font-weight: bold;
+}
+.product_container .product_infor .product_card .product_items .price {
+  color: #008000;
+}
+.product_container .product_infor .product_card .whatapp {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 0.5em 0;
+}
+.product_container .product_infor .product_card .whatapp a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.1em;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0.5em 1.5em;
+  font-size: 1em;
+  border-radius: 8px;
+}
+.product_container .product_infor .product_card .whatapp a i {
+  padding: 0 0.5em;
+}
+
+@media screen and (width <= 726px) {
+  .product_container {
+    padding: 1.2em 5%;
+  }
+  .product_container .product_infor .product_card .img img {
+    width: 90%;
+    height: 25vh;
+  }
+}
+.about_container .about_history {
+  padding: 0.9em 0;
+}
+.about_container .about_history .about {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  gap: 0.9em;
+}
+@media screen and (width >= 726px) {
+  .about_container .about_history .about {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.about_container .about_history .about .image img {
+  width: 80%;
+  height: 50vh;
+  border-radius: 12px;
+}
+.about_container .about_history .about .about_infor p {
+  padding: 0.9em 0;
+  font-size: 1.1em;
+}
+.about_container .our_goals {
+  padding: 0.9em 0;
+}
+.about_container .our_goals .goals_infor {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 0.9em 0;
+  gap: 1.5em;
+}
+@media screen and (width >= 726px) {
+  .about_container .our_goals .goals_infor {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.about_container .our_goals .goals_infor h4 {
+  padding: 0.3em 0;
+  text-decoration: underline;
+}
+.about_container .our_goals .goals_infor .mission, .about_container .our_goals .goals_infor .vision {
+  box-shadow: 2px 2px 3px #000000;
+  padding: 0.9em;
+  border-radius: 8px;
+}
+.about_container .our_goals .goals_infor .mission p, .about_container .our_goals .goals_infor .vision p {
+  font-size: 1em;
+}
+
+@media screen and (width <= 726px) {
+  .about_container {
+    padding: 1.2em 5%;
+  }
+  .about_container .about_history .about .image {
+    display: none;
+  }
+}
+.contact_container .contact_infor {
+  padding: 1em 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+}
+@media screen and (width >= 726px) {
+  .contact_container .contact_infor {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.contact_container .contact_infor .contact_content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact_container .contact_infor .contact_content .contact_item {
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 0.9em;
+  margin-bottom: 10px;
+  padding: 0.3em 0;
+}
+.contact_container .contact_infor .contact_form {
+  padding: 1.1em;
+  background-color: rgba(237, 237, 237, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.contact_container .contact_infor .contact_form input,
+.contact_container .contact_infor .contact_form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+.contact_container .contact_infor .contact_form input:focus,
+.contact_container .contact_infor .contact_form textarea:focus {
+  border-color: #000000;
+  box-shadow: 0 0 5px #000000;
+  outline: none;
+}
+.contact_container .contact_infor .contact_form button {
+  background-color: #25D366;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+.contact_container .contact_infor .contact_form button:hover {
+  background-color: rgb(29.3911290323, 167.6088709677, 81.0241935484);
+  transform: translateY(-2px);
+}
+.contact_container .contact_infor .contact_form button:active {
+  transform: translateY(1px);
+}
+
+@media screen and (width <= 726px) {
+  .contact_container {
+    padding: 1.2em 5%;
   }
 }/*# sourceMappingURL=style.css.map */
