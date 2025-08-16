@@ -69,6 +69,15 @@
     .footer_container{
         padding: 1.2em 3%;
 
+        .footer_content{
+            .footer_infor{
+                p{
+                    font-size: 0.9em;
+                    padding: 0.2em 0;
+                }
+            }
+        }
+
        .footer{
             font-size: 0.9em;
        }
