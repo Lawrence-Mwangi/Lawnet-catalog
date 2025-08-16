@@ -76,15 +76,16 @@
 @media  screen and (width <=726px) {
     .hero_container{
         height: inherit;
+
         .hero_container{
-            height: 45vh;
-    
+            height: 50vh;
+
             .hero_content{
-                top: 50%;
+                top: 52%;
                 width: 80%;
 
                 h1{
-                    font-size: 1.4em;
+                    font-size: 1.3em;
                 }
 
                 p {

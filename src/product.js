@@ -4,7 +4,7 @@ export const products = [
         name: 'Chessboord',
         price: '4500',
         description: 'Handcrafted epoxy resin chessboard, blending durability and elegance, ideal for both playing and decorative display.',
-        color:'glowing blue & white',
+        color:'Blue & white',
         image: 'assets/images/chessboard.jpg',
     },
 

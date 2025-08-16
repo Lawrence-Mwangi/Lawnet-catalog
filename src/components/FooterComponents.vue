@@ -1,7 +1,7 @@
 <script setup>
 // import { ref } from 'vue';
 
-const startYear = 2025; // The year your business started
+const startYear = 2025; 
 const currentYear = new Date().getFullYear();
 
 const yearDisplay = startYear === currentYear ? `${startYear}` : `${startYear}-${currentYear}`;
