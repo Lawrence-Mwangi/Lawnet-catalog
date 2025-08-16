@@ -1,4 +1,4 @@
-# lawnet-catalog
+# lawnet Catelog Website
 The following is the proccesses to follow to install and clone the project if you find it intresting.
 
 

@@ -1,0 +1,16 @@
+// global style for the website
+@import 'variables';
+@import 'mixins';
+@import 'global';
+
+
+
+// Partial styles of the website
+@import 'navbar';
+@import 'footer';
+
+
+// main style of the website
+@import 'hero';
+@import 'content';
+@import 'product';
