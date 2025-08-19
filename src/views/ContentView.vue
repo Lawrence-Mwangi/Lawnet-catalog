@@ -96,7 +96,7 @@
         </div>
 
         <div class="project_content">
-            <h2>Our Projects</h2>
+            <h2>Our Products</h2>
             <p>Discover some of our recent epoxy resin creations, 
                 blending durability with timeless design.
             </p>

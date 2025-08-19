@@ -19,10 +19,18 @@
     }
 
     .gallery_project{
-        padding: 0.9em 0;
+        padding: 1.2em 0;
 
         .project_content{
             @include grid(3);
+            padding: 0.9em 0;
+
+            .frame{
+                width: 95%;
+                height: 35vh;
+                border-radius: 12px;
+                border: none;
+            }
         }
     }
 }
@@ -31,7 +39,7 @@
 
 @media screen and (width <=726px) {
     .gallery_container{
-        padding: 1.2em 5%;
+        padding: 1.2em 7%;
 
         .gallery_content{
             .gallery_item{
@@ -49,5 +57,16 @@
                 }
             }
         }
+
+       .gallery_project{
+            .project_content{
+                gap: 2em;
+
+                .frame{
+                    height: 25vh;
+                    width: 95%;
+                }
+            }
+       }
     }
 }

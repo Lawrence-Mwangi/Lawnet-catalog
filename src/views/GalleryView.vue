@@ -40,7 +40,7 @@
 
             <div class="gallery_item">
                 <div class="gallery_image">
-                    <img src="/public/assets/images/lamp.jpeg" alt="Gallery Image">                   
+                    <img src="/public/assets/images/lamp1.jpeg" alt="Gallery Image">                   
                 </div>
                 <h4>Title: <span>Bed Lamp</span></h4>
             </div>
@@ -58,23 +58,57 @@
 
             <div class="project_content">
                 <div class="project_item">
-                    <iframe src="" frameborder="0"></iframe>
-                    <!-- <div class="gallery_image">
-                        <img src="/public/logo.jpg" alt="Gallery Image">  
-                    </div> -->
+                    <iframe
+                        src="https://www.youtube.com/embed/93INfotpxmA?si=0PjtdZE49Y7zf3B4"
+                        title="Embedded content"
+                        loading="lazy"
+                        referrerpolicy="no-referrer"
+                        sandbox="allow-scripts allow-same-origin" class="frame">
+                    </iframe>
                 </div>
 
                 <div class="project_item">
-                    <iframe src="" frameborder="0"></iframe>
-                    <!-- <div class="gallery_image">
-                        <img src="/public/logo.jpg" alt="Gallery Image">  
-                    </div> -->
+                    <iframe
+                        src="https://www.youtube.com/embed/CA3LXwXQTPA?si=Proa0-PxsL5Vkddv"
+                        title="Embedded content"
+                        loading="lazy"
+                        referrerpolicy="no-referrer"
+                        sandbox="allow-scripts allow-same-origin" class="frame">
+                    </iframe>
+                </div>
+
+                <div class="project_item">
+                    <iframe
+                        src="https://www.youtube.com/embed/FCqHfyUf3No?si=IyysjRSOTXG5S7S0"
+                        title="Embedded content"
+                        loading="lazy"
+                        referrerpolicy="no-referrer"
+                        sandbox="allow-scripts allow-same-origin" class="frame">
+                    </iframe>
+                </div>
+
+                <div class="project_item">
+                    <iframe
+                        src="https://www.youtube.com/embed/jgh1pcNYaSU?si=5saFy9T9p6X9Uotv"
+                        title="Embedded content"
+                        loading="lazy"
+                        referrerpolicy="no-referrer"
+                        sandbox="allow-scripts allow-same-origin" class="frame">
+                    </iframe>
+                </div>
+
+                <div class="project_item">
+                    <iframe
+                        src="https://www.youtube.com/embed/vHLZqz3puPA?si=orILU_C1sH2joKIw"
+                        title="Embedded content"
+                        loading="lazy"
+                        referrerpolicy="no-referrer"
+                        sandbox="allow-scripts allow-same-origin" class="frame">
+                    </iframe>
                 </div>
             </div>
         </div>
-
     </div>
-
 
     <Footer/>
 </template>
