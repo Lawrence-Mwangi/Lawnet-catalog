@@ -780,7 +780,7 @@ body {
 
 @media screen and (width <= 726px) {
   .gallery_container {
-    padding: 1.2em 7%;
+    padding: 1.2em 6%;
   }
   .gallery_container .gallery_content .gallery_item {
     padding: 0.3em 0;
@@ -793,7 +793,7 @@ body {
   }
   .gallery_container .gallery_content .gallery_item .gallery_image img {
     height: 40vh;
-    width: 90%;
+    width: 100%;
     border-radius: 16px;
   }
   .gallery_container .gallery_project .project_content {
