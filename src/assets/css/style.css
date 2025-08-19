@@ -18,6 +18,7 @@ body {
 
 .router-link-active {
   position: relative;
+  font-weight: bold;
 }
 .router-link-active:after {
   content: "";
@@ -26,11 +27,16 @@ body {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #FFD700;
-  transition: width 0.3s ease;
+  background-color: #000000;
+  transition: width 0.5s ease;
 }
 .router-link-active:hover:after {
   height: 3px;
+}
+@media screen and (width <= 726px) {
+  .router-link-active:after {
+    background-color: #FFD700;
+  }
 }
 
 .no-underline:after {
@@ -441,7 +447,7 @@ body {
   justify-content: center;
 }
 .content_container .project_content .project_infor .project_card .img img {
-  width: 70%;
+  width: 85%;
   height: 35vh;
   border-radius: 12px;
 }
@@ -730,5 +736,57 @@ body {
 @media screen and (width <= 726px) {
   .contact_container {
     padding: 1.2em 5%;
+  }
+}
+.gallery_container .gallery_content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 0.9em 0;
+}
+@media screen and (width >= 726px) {
+  .gallery_container .gallery_content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.gallery_container .gallery_content .gallery_item .gallery_image img {
+  width: 95%;
+  height: 55vh;
+  border-radius: 16px 0 16px 0;
+}
+.gallery_container .gallery_content .gallery_item h4 {
+  padding: 0.2em 0;
+}
+.gallery_container .gallery_project {
+  padding: 0.9em 0;
+}
+.gallery_container .gallery_project .project_content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+}
+@media screen and (width >= 726px) {
+  .gallery_container .gallery_project .project_content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (width <= 726px) {
+  .gallery_container {
+    padding: 1.2em 5%;
+  }
+  .gallery_container .gallery_content .gallery_item {
+    padding: 0.3em 0;
+  }
+  .gallery_container .gallery_content .gallery_item .gallery_image {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .gallery_container .gallery_content .gallery_item .gallery_image img {
+    height: 40vh;
+    width: 90%;
+    border-radius: 16px;
   }
 }/*# sourceMappingURL=style.css.map */

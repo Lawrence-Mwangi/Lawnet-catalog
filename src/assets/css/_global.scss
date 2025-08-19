@@ -22,6 +22,7 @@ body{
 
 .router-link-active {
     position: relative;
+    font-weight: bold;
 
     &:after {
         content: '';
@@ -30,12 +31,18 @@ body{
         left: 0;
         width: 100%;
         height: 2px;
-        background-color: $accent-color;
-        transition: width 0.3s ease;
+        background-color:$background-color;
+        transition: width 0.5s ease;
     }
 
     &:hover:after {
         height: 3px;
+    }
+
+    @media screen and (width <=726px) {
+        &:after{
+            background-color: $accent-color;
+        }
     }
 }
 

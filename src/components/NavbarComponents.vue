@@ -31,6 +31,7 @@
                 <li><router-link :to="{ name: 'about' }" @click="navigate('about')">About</router-link></li>
                 <li><router-link :to="{ name: 'product'}" @click="navigate('product')">Product</router-link></li>
                 <li> <router-link :to="{ name: 'contact'}" @click="navigate('contact')">Contact</router-link></li>
+                <li> <router-link :to="{ name: 'gallery'}" @click="navigate('gallery')">Gallery</router-link></li>
             </ul>
         </div>
 

@@ -103,7 +103,7 @@
             <div class="project_infor">
                 <div class="project_card">
                     <div class="img">
-                        <img src="../assets/image/chessboard.jpg" alt="Chessboard Image">
+                        <img src="../assets/image/chessboard1.jpeg" alt="Chessboard Image">
                     </div>
 
                     <h4>Chessboard Set</h4>
@@ -118,7 +118,7 @@
 
                 <div class="project_card">
                     <div class="img">
-                        <img src="../assets/image/wallclock2.jpeg" alt="Chessboard Image">
+                        <img src="../assets/image/clock4.jpeg" alt="Chessboard Image">
                     </div>
 
                     <h4>Wall Clock</h4>
@@ -133,7 +133,7 @@
 
                 <div class="project_card">
                     <div class="img">
-                        <img src="../assets/image/keychain1.jpeg" alt="Chessboard Image">
+                        <img src="../assets/image/keychain.jpeg" alt="Chessboard Image">
                     </div>
 
                     <h4>Keychains</h4>

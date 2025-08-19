@@ -25,7 +25,7 @@ const yearDisplay = startYear === currentYear ? `${startYear}` : `${startYear}-$
                     <li><router-link :to="{ name: 'product' }">Product</router-link></li>
                     <li><router-link :to="{ name: 'contact' }">Contact</router-link></li>
                     <li><router-link :to="{ name: 'about' }">About</router-link></li>
-                    <li><router-link :to="{ name: 'product' }">Blog</router-link></li>
+                    <!-- <li><router-link :to="{ name: 'product' }">Blog</router-link></li> -->
                 </ul>
             </div>
             

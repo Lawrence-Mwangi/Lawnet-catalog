@@ -31,10 +31,9 @@
         .footer_links{
             ul{
                 list-style: none;
-                
                 li{
                     padding: 0.1em 0;
-
+                  
                     a{
                         @include anchor;
                         color: $text-color;

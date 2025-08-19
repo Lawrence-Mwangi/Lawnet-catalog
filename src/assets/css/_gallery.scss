@@ -1,0 +1,53 @@
+.gallery_container{
+    .gallery_content{
+        @include grid(3);
+        padding: 0.9em 0;
+
+        .gallery_item{
+            .gallery_image{
+                img{
+                    width: 95%;
+                    height: 55vh;
+                    border-radius: 16px 0 16px 0;
+                }
+            }
+
+            h4{
+                padding: 0.2em 0;
+            }
+        }
+    }
+
+    .gallery_project{
+        padding: 0.9em 0;
+
+        .project_content{
+            @include grid(3);
+        }
+    }
+}
+
+
+
+@media screen and (width <=726px) {
+    .gallery_container{
+        padding: 1.2em 5%;
+
+        .gallery_content{
+            .gallery_item{
+                padding: 0.3em 0;
+                
+                .gallery_image{
+                    @include flex_center;
+                    justify-content: center;
+
+                    img{
+                        height: 40vh;
+                        width: 90%;
+                        border-radius: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

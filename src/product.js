@@ -2,19 +2,19 @@ export const products = [
     {
         id: 1,
         name: 'Chessboord',
-        price: '4500',
+        price: '4,500',
         description: 'Handcrafted epoxy resin chessboard, blending durability and elegance, ideal for both playing and decorative display.',
         color:'Blue & white',
-        image: 'assets/images/chessboard.jpg',
+        image: 'assets/images/chessboard1.jpeg',
     },
 
     {
         id:2,
-        name: 'Wallclock',
-        price: '2500',
+        name: 'Wall clock',
+        price: '2,500',
         description: 'Handcrafted epoxy resin wall clock combining elegance and durability, perfect for stylish home or office decor.',
         color: 'Black',
-        image: 'assets/images/wallclock1.jpeg',
+        image: 'assets/images/clock4.jpeg',
     },
 
     {
@@ -23,6 +23,6 @@ export const products = [
         price: '250',
         description: 'Uniquely created epoxy resin keychain, combining elegance and functionality, perfect as a gift or personal accessory.',
         color: 'Black, White etc',
-        image: 'assets/images/pens2.jpeg',
+        image: 'assets/images/pens.jpeg',
     }
 ]
