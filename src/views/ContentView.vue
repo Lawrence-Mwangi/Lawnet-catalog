@@ -108,7 +108,7 @@
 
                     <h4>Chessboard Set</h4>
                     <p>A handcrafted epoxy resin chessboard that combines elegance and durability. 
-                        Perfect for both play and display, bringing art into every move.
+                        Perfect for both play and display, bringing art .
                     </p>
 
                     <div class="button">
