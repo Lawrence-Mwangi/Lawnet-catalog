@@ -106,6 +106,16 @@
                         sandbox="allow-scripts allow-same-origin" class="frame">
                     </iframe>
                 </div>
+
+                <div class="project_item">
+                    <iframe 
+                        src="https://www.youtube.com/embed/b0tDSFMuAok?si=Pmf_kIAcGgshdCFW" 
+                        title="Embedded content"
+                        loading="lazy"
+                        referrerpolicy="no-referrer"
+                        sandbox="allow-scripts allow-same-origin" class="frame">
+                    </iframe>
+                </div>
             </div>
         </div>
     </div>
