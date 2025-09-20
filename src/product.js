@@ -114,7 +114,14 @@ export const products = [
         description:'Stylish epoxy resin pendant designed for elegant daily wear.',
         color:'various Color',
         image: 'assets/images/pendant.jpeg',
+    },
+
+    {
+        id:14,
+        name:'Vase',
+        price: '480',
+        description:'Stylish epoxy resin Vase designed for elegant daily use.',
+        color:'White & Red',
+        image: 'assets/images/vase.png',
     }
-
-
 ]
