@@ -19,7 +19,7 @@ export const companyInfo = {
         facebook: 'https://facebook.com/lawrence.mwangi.733076',
         instagram: 'https://www.instagram.com/lawnet.mwangi',
         // twitter: 'https://twitter.com/lawnetresin',
-        tiktok: 'https://www.tiktok.com/@lawrence_mwas',
+        tiktok: 'https://www.tiktok.com/@lawnetdecor',
         youtube: 'https://www.youtube.com/@lawnetDecor',
     }
 }
